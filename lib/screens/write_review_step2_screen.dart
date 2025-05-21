@@ -143,7 +143,7 @@ class WriteReviewStep2Screen extends StatelessWidget {
                 width: 1,
               ),
             ),
-            child: TextField(
+            child: const TextField(
               decoration: InputDecoration(
                 hintText: 'Eg. No one is giving Luxor pens',
                 hintStyle: TextStyle(
@@ -152,7 +152,7 @@ class WriteReviewStep2Screen extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                 ),
                 border: InputBorder.none,
-                contentPadding: const EdgeInsets.all(16),
+                contentPadding: EdgeInsets.all(16),
               ),
             ),
           ),
@@ -183,7 +183,7 @@ class WriteReviewStep2Screen extends StatelessWidget {
                 width: 1,
               ),
             ),
-            child: TextField(
+            child: const TextField(
               maxLines: 5,
               decoration: InputDecoration(
                 hintText: 'Write your description here...',
@@ -193,7 +193,7 @@ class WriteReviewStep2Screen extends StatelessWidget {
                   fontWeight: FontWeight.w400,
                 ),
                 border: InputBorder.none,
-                contentPadding: const EdgeInsets.all(16),
+                contentPadding: EdgeInsets.all(16),
               ),
             ),
           ),

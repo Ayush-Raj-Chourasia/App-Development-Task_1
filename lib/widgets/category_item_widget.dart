@@ -33,7 +33,7 @@ class CategoryItemWidget extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(icon, color: isSelected ? AppColors.accentColor : AppColors.textColor), // Use colors from constants
-            SizedBox(width: AppDimensions.smallSpacing), // Use spacing from constants
+            const SizedBox(width: AppDimensions.smallSpacing), // Use spacing from constants
             Text(
               text,
               style: AppTextStyles.categoryItemText.copyWith(
