@@ -1,0 +1,5 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "C:/Users/iters/Downloads/App_Dev_task_1/app_dev_task_1/linux",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
