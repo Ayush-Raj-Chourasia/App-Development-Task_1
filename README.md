@@ -1,4 +1,4 @@
-# App Development Task 1 - IIT Guwahati Coding Week 25
+# App Development Task 1
 A Flutter implementation of the UI screens designed in Figma for the App Development Task 1 of IIT Guwahati Coding Week 25.
 
 ## Features
