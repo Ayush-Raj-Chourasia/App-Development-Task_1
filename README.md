@@ -1,5 +1,4 @@
 # App Development Task 1 - IIT Guwahati Coding Week 25
-
 A Flutter implementation of the UI screens designed in Figma for the App Development Task 1 of IIT Guwahati Coding Week 25.
 
 ## Features
@@ -44,7 +43,7 @@ lib/
 
 2. **Clone and Setup**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ayush-Raj-Chourasia/App-Development-Task_1.git
    cd app_dev_task_1
    ```
 
