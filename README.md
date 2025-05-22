@@ -44,7 +44,7 @@ lib/
 
 2. **Clone and Setup**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ayush-Raj-Chourasia/App-Development-Task_1.git
    cd app_dev_task_1
    ```
 
