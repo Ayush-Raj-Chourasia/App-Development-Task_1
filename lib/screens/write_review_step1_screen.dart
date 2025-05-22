@@ -5,8 +5,15 @@ import '../constants/image_constants.dart';
 import '../widgets/custom_image_view.dart';
 import '../widgets/selection_option_widget.dart';
 
-class WriteReviewStep1Screen extends StatelessWidget {
+class WriteReviewStep1Screen extends StatefulWidget {
   const WriteReviewStep1Screen({Key? key}) : super(key: key);
+
+  @override
+  _WriteReviewStep1ScreenState createState() => _WriteReviewStep1ScreenState();
+}
+
+class _WriteReviewStep1ScreenState extends State<WriteReviewStep1Screen> {
+  String? _selectedOption;
 
   @override
   Widget build(BuildContext context) {
@@ -138,22 +145,34 @@ class WriteReviewStep1Screen extends StatelessWidget {
           SelectionOptionWidget(
             iconPath: ImageConstant.imgWashingMachine,
             title: 'Electrical Shops',
-            isSelected: false,
-            onTap: () {},
+            isSelected: _selectedOption == 'Electrical Shops',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Electrical Shops';
+              });
+            },
           ),
           const SizedBox(height: 8),
           SelectionOptionWidget(
             iconPath: ImageConstant.imgWashroom,
             title: 'Books Shop',
-            isSelected: true,
-            onTap: () {},
+            isSelected: _selectedOption == 'Books Shop',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Books Shop';
+              });
+            },
           ),
           const SizedBox(height: 8),
           SelectionOptionWidget(
             iconPath: ImageConstant.imgWatercooler,
             title: 'Hardware Shops',
-            isSelected: false,
-            onTap: () {},
+            isSelected: _selectedOption == 'Hardware Shops',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Hardware Shops';
+              });
+            },
           ),
         ],
       ),
@@ -176,22 +195,34 @@ class WriteReviewStep1Screen extends StatelessWidget {
           SelectionOptionWidget(
             iconPath: ImageConstant.imgCanteen,
             title: 'Canteens',
-            isSelected: false,
-            onTap: () {},
+            isSelected: _selectedOption == 'Canteens',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Canteens';
+              });
+            },
           ),
           const SizedBox(height: 8),
           SelectionOptionWidget(
             iconPath: ImageConstant.imgJuice,
             title: 'Juice Corner',
-            isSelected: false,
-            onTap: () {},
+            isSelected: _selectedOption == 'Juice Corner',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Juice Corner';
+              });
+            },
           ),
           const SizedBox(height: 8),
           SelectionOptionWidget(
             iconPath: ImageConstant.imgMess,
             title: 'Restaurants',
-            isSelected: false,
-            onTap: () {},
+            isSelected: _selectedOption == 'Restaurants',
+            onTap: () {
+              setState(() {
+                _selectedOption = 'Restaurants';
+              });
+            },
           ),
         ],
       ),
